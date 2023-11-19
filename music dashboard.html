@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css dashboard.css">
+    <title>Website Musik</title>
+</head>
+<body>
+    <header>
+        <h1>Selamat datang di Website Musik</h1>
+        <p>Nikmati beragam musik terbaik di sini!</p>
+    </header>
+
+    <nav>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li class="search-bar">
+                <form action="/search" method="GET">
+                    <input type="text" name="query" placeholder="Cari lagu...">
+                    <button type="submit"><img src="search-icon.png" alt="Search"></button>
+                </form>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="genres">
+        <h2 class="genre-toggle">Genre Musik</h2>
+        <ul class="genre-list">
+            <li><a href="#">Pop</a></li>
+            <li><a href="#">Rock</a></li>
+            <li><a href="#">Hip Hop</a></li>
+            <!-- Tambahkan lebih banyak genre -->
+        </ul>
+    </section>
+
+    <section class="content">
+        <!-- Konten utama website, misalnya daftar lagu atau informasi lainnya -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Website Musik - Dibuat dengan ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
